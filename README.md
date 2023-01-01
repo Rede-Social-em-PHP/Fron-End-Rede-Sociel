@@ -7,7 +7,7 @@ O projeto se trata de um projeto que está sendo desenvolvida por 2 desenvolvedo
 <br>
  <div align="center">
     <h1>Link do projeto beta 0.1:</h1>
-   https://eduardofranco572.github.io/Meu-Portfolio/
+   
    <br>
    
    <h1>Abaixo algumas imagens do projeto</h1>
