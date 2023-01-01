@@ -20,7 +20,7 @@ O projeto se trata de um projeto que está sendo desenvolvida por 2 desenvolvedo
   <img widht= 700px height= 500px src="img-do-projeto/img3.jpg">
   <br>
   <br>
-  O projeto também esta todo responsivo então você pode utilizar pelo celular também
+  <h1>O projeto também esta todo responsivo então você pode utilizar pelo celular também</h1> 
   <br>
   <br>
    <img widht= 700px height= 500px src="img-do-projeto/img4.jpg">
