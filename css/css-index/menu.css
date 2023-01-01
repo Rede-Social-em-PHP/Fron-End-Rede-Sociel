@@ -1,0 +1,93 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem 0rem 2rem;
+    background-color: #242526;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.nome h1{
+    color: white;
+}
+
+
+.icons-menu{
+    display: flex;
+
+}
+
+.perfio img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.notificacao {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #3A3B3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.publicar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #3A3B3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.notificacao:hover{
+    background-color:#606770;
+   
+}
+.publicar:hover{
+    background-color:#606770;
+
+}
+
+
+.notificacao img{
+    width: 21px;
+    height: 21px;
+}
+
+.publicar img{
+    width: 21px;
+    height: 21px;
+}
+
+.pesquisa input{
+    width: 22rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #3A3B3C;
+    color: white;
+}
+
+.pesquisa input[type="text" i] {
+    padding: 4px 15px;
+    font-size: 15px;
+}
+
+.icons-menu {
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+    user-select: none;
+}

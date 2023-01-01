@@ -1,0 +1,49 @@
+body{
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p, span {
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    
+}
+.lado{
+    background-color: #242526;
+    width: 23%;
+    height: 100%;
+    border-radius: 0rem 1rem 1rem 0rem;
+    position: fixed;
+    left: 0;
+    
+}
+.publicacoes{
+    margin-top: 1rem;
+    width: 43%;
+    height: 44rem;
+}
+.chat{
+    background-color: #242526;
+    width: 23%;
+    height: 100%;
+    border-radius: 1rem 0rem 0rem 1rem;
+    position: fixed;
+    right: 0;
+}
+
+input{
+    color: white;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.menu-cima-mobile{
+    display: none;
+}

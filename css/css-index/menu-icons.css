@@ -1,0 +1,187 @@
+/* aqui abre quando apertar na foto de usuario do menu */
+.abre-info-perfio{
+    display: flex;
+    justify-content: end;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    display: none;
+}
+.card-info-perfio{
+    width: 20rem;
+    height: 22rem;
+    background-color:#242526;
+    border-radius: 1rem;
+    position: fixed;
+    z-index: 1;
+    border: 1px solid rgb(66, 66, 66);
+}
+
+.elementos-info{
+    margin: 1rem;
+}
+
+.blocos{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding: 6px;
+    cursor: pointer;
+    user-select: none;
+    font-family: 'Roboto', sans-serif;
+}
+.blocos:hover{
+    background-color:#303031;
+    border-radius: 0.5rem;
+}
+
+.blocos img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.blocos h1{
+    color: white;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    font-weight: 500;
+}
+.blocos span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+.elementos-info a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* aqui abre quando apertar na notificação do menu */
+.abre-notificacao-perfio{
+    display: flex;
+    justify-content: end;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    display: none;
+}
+.card-notificacao-perfio{
+    width: 20rem;
+    height: 29rem;
+    background-color:#242526;
+    border-radius: 1rem;
+    position: fixed;
+    z-index: 1;
+    border: 1px solid rgb(66, 66, 66);
+    overflow-y: scroll;
+}
+
+.elementos-notificacao{
+    margin: 1rem;
+}
+
+.blocos-notificacao{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding: 6px;
+    cursor: pointer;
+    user-select: none;
+}
+.blocos-notificacao:hover{
+    background-color:#303031;
+    border-radius: 0.5rem;
+}
+
+.blocos-notificacao img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.blocos-notificacao p{
+    color: white;
+    font-size: 14px;
+    margin-left: 0.5rem;
+}
+
+.nomeuser{
+    color: white;
+    font-size: 14px;
+    margin-right: 4px;
+    font-weight: 600;
+}
+
+.titulo-notificacao h1{
+    color: white;
+    font-size: 18px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+
+/* aqui abre quando apertar no publicar do menu */
+.abre-publicar-perfio{
+    display: flex;
+    justify-content: end;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    display: none;
+    
+}
+.card-publicar-perfio{
+    width: 18rem;
+    height: 9rem;
+    background-color:#242526;
+    border-radius: 1rem;
+    position: fixed;
+    z-index: 1;
+    border: 1px solid rgb(66, 66, 66);
+}
+
+.elementos-publicar{
+    margin: 1rem;
+}
+
+.blocos-notificacao{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    cursor: pointer;
+    user-select: none;
+}
+.blocos-notificacao:hover{
+    background-color:#303031;
+    border-radius: 0.5rem;
+}
+
+.blocos-notificacao img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.blocos-notificacao h1{
+    color: white;
+    font-size: 15px;
+    margin-left: 0.5rem;
+}
+
+.elementos-publicar a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.blocos-publicar{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    cursor: pointer;
+    user-select: none;
+}

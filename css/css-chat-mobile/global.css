@@ -1,0 +1,55 @@
+body{
+    background-color: #121212;
+
+}
+h1, p, span {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.setavoltar{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.setavoltar img{
+    width: 3rem;
+    height: 3rem;
+}
+a{
+    text-decoration: none;
+}
+
+.contato1{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.contato1:hover{
+   background-color: #424242;
+   border-radius: 1rem;
+   padding: 10px;
+   transition: 0.5s;
+}
+
+.contato1 img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.contato1 h1{
+    color: white;
+    margin-left: 1rem;
+    font-size: 19px;
+}
+
+.contatos-mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-contatos-mobile h1{
+    color: white;
+    font-size: 24px;
+}

@@ -1,0 +1,245 @@
+.stories{
+    background-color: #242526;
+    width: 100%;
+    height: 8rem;
+    border: 1px solid #424242;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card1{
+    background-color: #242526;
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    border: 1px solid #424242;
+    border-radius: 0.5rem;
+
+}
+
+.stori1 img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 3px solid #2ca12c;
+}
+
+.stori1 h1{
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+
+.stori1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.info{
+    border-bottom: 1px solid #424242;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+}
+
+.conteudo-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usuario-pub{
+    display: flex;
+    align-items: center;
+}
+
+.usuario-pub img{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #2ca12c;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.textos-info p{
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.trespontos svg{
+    fill: white;
+    width: 2rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.trespontos svg:hover{
+    fill:#727272;
+    cursor: pointer;
+}
+
+.conteudo img{
+    height: 100%;
+    border-radius: 0rem 0rem 1rem 1rem;
+    user-select: none;
+    max-height: 44rem;
+    max-width: 100%;
+}
+
+.interacoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    user-select: none;
+}
+
+.tresantes{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.curtida img{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.chats-pub img{
+    width: 1.6rem;
+    height: 1.6rem;
+    cursor: pointer;
+}
+
+.compartlhar img{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.salvar, .compartlhar, .curtida, .chats-pub {
+    background: transparent;
+    border: none;
+}
+.salvar img{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.curtidas{
+    margin-left: 1rem;
+}
+
+.curtidas p{
+    color: white;
+    font-size: 14px;
+}
+
+.bio{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: -1rem;
+}
+
+.nomepessoa{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.descricao{
+    color: white;
+    margin-left: 0.4rem;
+    font-size: 14px;
+}
+
+.lermais{
+    color: rgb(180, 180, 180);
+    margin-left: 0.3rem;
+    cursor: pointer;
+
+}
+
+.comentario{
+    border-top: 1px solid #424242;
+    padding: 0rem 0rem 0rem 1rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.inpu-comen{
+    width: 80%;
+    height: 2rem;
+    background-color: #242526;
+    border: none;
+        
+}   
+
+.button-comen{
+    width: 18%;
+    height: 2rem;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cardtrespontos{
+    display: flex;
+    display: none;
+    flex-direction: column;
+    width: 19rem;
+    height: 14rem;
+    background-color: #242526;
+    position: absolute;
+    border-radius: 0rem 0rem 1rem 1rem;
+    justify-content: flex-start;
+}
+
+.trespontos{
+    user-select: none;
+}
+.relacao{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.dentro-opcao{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.dentro-opcao img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.dentro-opcao h1{
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.dentro-opcao:hover{
+    background-color:#303031;
+    border-radius: 0.5rem;
+}
+
+.opicao1{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.alinha-cardtrsponto{
+    position: absolute;
+}

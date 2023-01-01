@@ -1,0 +1,343 @@
+body{
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 69rem;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+
+h1, p, span {
+    font-family: 'Roboto', sans-serif;
+}
+
+.part1{
+    display: flex;
+    padding: 3rem 3rem 1rem 3rem;
+    justify-content: space-between;
+}
+
+.foto-usuario img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 3px solid #2ca12c;
+    cursor: pointer;
+}
+
+.infos{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posts h1{
+   font-size: 24px; 
+   color: white;
+}
+
+.posts p{
+   font-size: 14px;
+   color: white;
+   margin-top: -9px;
+
+}
+
+.part2{
+    display: flex;
+    padding: 0rem 3rem 0rem 3rem;
+    flex-direction: column;
+}
+
+.nome-user h1{
+    color: white;
+    font-size: 24px;
+}
+
+.bio p{
+    color: white;
+    font-size: 14px;
+}
+
+.bio a{
+    color: rgb(87, 130, 223);
+    font-size: 14px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+
+.alinha-centro{
+    display: flex;
+    justify-content: space-between;
+    width: 69%;
+    margin-top: 2rem;
+}
+
+.mensagem button, .seguir button{
+    width: 10rem;
+    padding: 13px;
+    border-radius: 0.7rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    font-size: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    transition: 1s;
+}
+
+.mensagem button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.stories{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.story1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.story1 img{
+    border-radius: 24px;
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid #2ca12c;
+}
+.story1 h1{
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+.elementos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+}
+
+.alinha-user{
+    display: flex;
+    justify-content: center;
+}
+
+.add{
+    border: none !important;
+    width: 3.5rem !important;
+}
+
+/* publicações do perfil */
+
+.pub1 img{
+    width: 21rem;
+    height: 18rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.elementos-pub{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.pub1{
+    padding: 1rem;
+}
+
+/* RESPONSABILIDAE */
+
+@media (max-width: 425px){
+
+    .publicacoes{
+        margin-top: 1rem;
+    }
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+        width: 69rem;
+        height: 100%;
+        border-radius: 1rem;
+    }
+    
+    .part1{
+        display: flex;
+        padding: 1rem 1rem 1rem 2rem;
+        justify-content: space-between;
+    }
+    
+    .foto-usuario img{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        border: 3px solid #2ca12c;
+        cursor: pointer;
+    }
+
+    .infos{
+        display: flex;
+        width: 90%;
+        justify-content: space-around;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+      
+    .part2{
+        display: flex;
+        padding: 0rem 1rem 0rem 1rem;
+        flex-direction: column;
+    }
+    
+    
+    .stories{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    
+    .story1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        margin-left: 6px;
+    }
+    .story1 img{
+        border-radius: 14px;
+        width: 54px;
+        height: 54px;
+        border: 2px solid #2ca12c;
+    }
+    .story1 h1{
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+    }
+    
+    .elementos{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        align-items: center;
+    }
+    .user{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .alinha-user{
+        display: flex;
+        justify-content: initial; 
+    }
+    
+    
+    .pub1 img{
+        width: 128px;
+        height: 128px;
+        cursor: pointer;
+        border-radius: 0rem;
+    }
+    .pub1{
+        padding: 1px 1px 1px 1px;
+    }
+    .alinha-centro {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    
+}
+@media (width: 375px){
+    .pub1 img {
+        width: 123px;
+        height: 123px;
+        cursor: pointer;
+        border-radius: 0rem;
+    }
+}
+
+@media (width: 320px){
+    .pub1 img {
+        width: 109px;
+        height: 109px;
+        cursor: pointer;
+        border-radius: 0rem;
+    }
+    .elementos-pub {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+    .part2 {
+        display: flex;
+        padding: 0rem 0rem 0rem 2rem;
+        flex-direction: column;
+    }
+    .elementos {
+        margin-left: 1rem;
+    }
+    .botoes {
+        display: flex;
+        justify-content: center;
+        padding: 1px;
+        margin-left: -9px;
+        margin-right: 3px;
+    }
+    .bio{
+        max-width: 18rem;
+    }
+    .alinha-centro {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0rem;
+        padding: 0px 11px 0px 11px;
+    }
+    .mensagem button, .seguir button {
+        width: 9rem;
+    }
+    .publicacoes {
+        margin-top: 1rem;
+        margin-left: 24px;
+    }
+}

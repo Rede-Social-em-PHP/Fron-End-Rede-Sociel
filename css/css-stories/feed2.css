@@ -1,0 +1,68 @@
+.conteiner2{
+    display: flex;
+    width: 61rem;
+    height: 33.9rem;
+    background-color: #242526;
+    border-radius: 1rem;
+    flex-direction: column;
+}
+
+.img-escolhida img{
+    height: 100%;
+    user-select: none;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 0rem 0rem 0rem 1rem;
+}
+
+.comentario{
+    width: 50%;
+    height: 100%;
+}
+
+.tudo2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botoes2{
+    border-bottom: 1px solid #424242;
+}
+
+.legenda-block textarea{
+    width: 90%;
+    margin-left: 1rem;
+    height: 15rem;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    user-select: none;
+    resize: none;
+}
+
+
+.publicar{
+    display: flex;
+    justify-content: center;
+}
+.botao2{
+    padding: 1rem 4rem 1rem 4rem;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 3rem;
+}
+
+.img-escolhida{
+    width: 100%;
+    background: black;
+    height: 30.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0rem 0rem 0rem 1rem;
+}

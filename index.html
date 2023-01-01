@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css-index/global.css">
+    <link rel="stylesheet" href="css/css-index/menu.css">
+    <link rel="stylesheet" href="css/css-index/publicacoes.css">
+    <link rel="stylesheet" href="css/css-index/chat.css">
+    <link rel="stylesheet" href="css/css-index/carrossel-passa-story.css">
+    <link rel="stylesheet" href="css/css-index/carrossel-story.css">
+    <link rel="stylesheet" href="css/css-index/abre-comentario.css">
+    <link rel="stylesheet" href="css/css-index/menu-icons.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"
+    integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="nome">
+            <!-- <img src="" alt=""> -->
+            <h1>NOME</h1>
+        </div>
+
+        <div class="pesquisa">
+            <input type="text" nome="pesquisa" placeholder="Pesquisar">
+        </div>
+
+        <div class="icons-menu">
+            
+            <div class="publicar" id="publicarperfio">
+                <img src="img/add-o-svgrepo-com.svg" alt="">
+            </div>
+            <div class="notificacao" id="notificacaoperfio">
+                <img src="img/heart-svgrepo-com.svg" alt="">
+            </div>
+            <div class="perfio" id="perfio">
+                <img src="img/perfio.png" alt="">
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="local" id="local">
+        <div class="blocodecima">
+            <div class="usuariodostory">
+                <img src="img/perfio.png" alt="">
+                <h1>Pedro Jorge</h1>
+            </div>
+            <div class="fechar" id="fechar-story">
+                <img src="img/x-svgrepo-com.svg" alt="">
+            </div>
+        </div>
+
+        <div data-slide="slide" class="slide">
+            <div class="slide-items">
+              <img src="img/potn7vwaxyj91.png" alt="">
+              <img src="img/s.jpg" alt="Img 2">
+              <img src="img/aesthetic-desktop-nawpic-3.png" alt="">
+              <img src="img/pexels-pixabay-70365.jpg" alt="">
+            </div>
+            <nav class="slide-nav">
+              <div class="slide-thumb"></div>
+
+                <div class="botoes-story">
+                    <button class="slide-prev">Anterior</button>
+                    <button class="slide-next">Próximo</button>
+                </div>
+
+            </nav>
+            <div class="chat-story">
+                <input class="input-chat-story" type="text" name="" id="" placeholder="Adicione um comentário..." >
+                <div class="elementos-parte">
+                    <button class="curtida2" id="curtidastory">
+                        <img id="imgcoracaostory" name="semcutirstory" src="img/heart-svgrepo-com.svg" alt="">
+                    </button>
+                    <button class="compartlhar2">
+                        <img src="img/share-svgrepo-com.svg" alt="">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="alinha-chat-pubs">
+        <div class="chat-publicacoes" id="abre-publicacoes">
+             
+            <div class="abre-publicacoes">
+                <div class="img-pub">
+                    <img src="img/night_city_window_rain.jpg" alt="" >
+                </div>
+                <div class="tudo-lado">
+                    <div class="info-aberto">
+                        <div class="conteudo-info2">
+                            <div class="usuario-pub2">
+                                <img src="img/perfio.png" alt="">
+                                <div class="textos-info">
+                                    <p>felipe</p>
+                                </div>
+                            </div>
+                            <div class="junta-trespontos--fehca">
+                                <div class="trespontos" id="trespontos2">
+                                    <svg aria-label="Mais opções" class="_ab6- __web-inspector-hide-shortcut__" color="#8e8e8e" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <circle cx="12" cy="12" r="1.5"></circle>
+                                        <circle cx="6" cy="12" r="1.5"></circle>
+                                        <circle cx="18" cy="12" r="1.5"></circle>
+                                    </svg>
+                                </div>
+                                <div class="botao-fechar" id="fechar-chat">
+                                    <img src="img/x-svgrepo-com.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="abre-tres-pontos">
+                        <div class="cardtrespontos2" name="fechado2">
+                            <div class="opicao1">
+                                <div class="dentro-opcao">
+                                    <img src="img/bookmark-svgrepo-com.svg" alt="">
+                                    <h1>Salvar publicação</h1>
+                                </div>
+                                <div class="dentro-opcao">
+                                    <img src="img/bookmark-svgrepo-com.svg" alt="">
+                                    <h1>Ativar notificações</h1>
+                                </div>
+                                <div class="dentro-opcao">
+                                    <img src="img/bookmark-svgrepo-com.svg" alt="">
+                                    <h1>Ocultar publicação</h1>
+                                </div>
+                                <div class="dentro-opcao">
+                                    <img src="img/bookmark-svgrepo-com.svg" alt="">
+                                    <h1>Deixar de Seguir</h1>
+                                </div>
+                                <div class="dentro-opcao">
+                                    <img src="img/bookmark-svgrepo-com.svg" alt="">
+                                    <h1>Denunciar publicação</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-da-publicacoes">
+        
+                        <div class="mensagem-da-publicacao">
+                            <div class="foto-usuario-chat">
+                                <img src="img/perfio.png" alt="">
+                            </div>
+                            <div class="texto-pub">
+                                <p><span class="nome-usuario-chat">felipe</span>Fer e fallen vão estar juntos até o fim. Acho q -fallen se o fer sair</p>
+                            </div>
+                        </div>
+                        <div class="mensagem-da-publicacao">
+                            <div class="foto-usuario-chat">
+                                <img src="img/perfio.png" alt="">
+                            </div>
+                            <div class="texto-pub">
+                                <p><span class="nome-usuario-chat">felipe</span>Fer e fallen vão estar juntos até o fim. Acho q -fallen se o fer sair</p>
+                            </div>
+                        </div>
+                        <div class="mensagem-da-publicacao">
+                            <div class="foto-usuario-chat">
+                                <img src="img/perfio.png" alt="">
+                            </div>
+                            <div class="texto-pub">
+                                <p><span class="nome-usuario-chat">felipe</span>Fer e fallen vão estar juntos até o fim. Acho q -fallen se o fer sair</p>
+                            </div>
+                        </div>
+                        <div class="mensagem-da-publicacao">
+                            <div class="foto-usuario-chat">
+                                <img src="img/perfio.png" alt="">
+                            </div>
+                            <div class="texto-pub">
+                                <p><span class="nome-usuario-chat">felipe</span>Fer e fallen vão estar juntos até o fim. Acho q -fallen se o fer sair</p>
+                            </div>
+                        </div>
+                        <div class="mensagem-da-publicacao">
+                            <div class="foto-usuario-chat">
+                                <img src="img/perfio.png" alt="">
+                            </div>
+                            <div class="texto-pub">
+                                <p><span class="nome-usuario-chat">felipe</span>Fer e fallen vão estar juntos até o fim. Acho q -fallen se o fer sair</p>
+                            </div>
+                        </div>
+                        <div class="mensagem-da-publicacao">
+                            <div class="foto-usuario-chat">
+                                <img src="img/perfio.png" alt="">
+                            </div>
+                            <div class="texto-pub">
+                                <p><span class="nome-usuario-chat">felipe</span>Fer e fallen vão estar juntos até o fim. Acho q -fallen se o fer sair</p>
+                            </div>
+                        </div>
+                        <div class="mensagem-da-publicacao">
+                            <div class="foto-usuario-chat">
+                                <img src="img/perfio.png" alt="">
+                            </div>
+                            <div class="texto-pub">
+                                <p><span class="nome-usuario-chat">felipe</span>Fer e fallen vão estar juntos até o fim. Acho q -fallen se o fer sair</p>
+                            </div>
+                        </div>
+                        <div class="mensagem-da-publicacao">
+                            <div class="foto-usuario-chat">
+                                <img src="img/perfio.png" alt="">
+                            </div>
+                            <div class="texto-pub">
+                                <p><span class="nome-usuario-chat">felipe</span>Fer e fallen vão estar juntos até o fim. Acho q -fallen se o fer sair</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interacoes-chat-aberto">
+                        <div class="interacoes">
+                            <div class="tresantes">
+                                <button class="curtida" id="curtida">
+                                    <img id="imgcoracao2" name="semcurtir2" src="img/heart-svgrepo-com.svg" alt="">
+                                </button>
+                                <button class="chats-pub">
+                                    <img src="img/chat-round-svgrepo-com.svg" alt="">
+                                </button>
+                                <button class="compartlhar">
+                                    <img src="img/share-svgrepo-com.svg" alt="">
+                                </button>
+                            </div>
+                            <button class="salvar" id="salvar2">
+                                <img id="img-save2" name="naosalvo2" src="img/bookmark-svgrepo-com.svg" alt="">
+                            </button>
+            
+                        </div>
+                        <div class="curtidas">
+                            <p>12.434 curtidas</p>
+                        </div>
+                    </div>
+                    <div class="comentario2">
+                        <input class="inpu-comen2" type="text" name="" id="" placeholder="Adicione um comentário..." >
+                        <input class="button-comen2" type="submit" value="Publicar">
+                    </div>
+                </div>
+        </div>
+    
+        </div>
+    </div>
+
+    <div class="abre-info-perfio" id="infoperfio" name="fechadoinfo">
+        <div class="card-info-perfio">
+            <div class="elementos-info">
+                <a href="#">
+                    <div class="blocos" id="entra-perfio-info">
+                        <img src="img/perfio.png" alt="">
+                        <h1><samp class="blocos" id="">Pedro Jorge</samp></h1>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="blocos" id="config-info">
+                        <img src="img/perfio.png" alt="">
+                        <h1>Configurações</h1>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="blocos" id="feedbeck-info">
+                        <img src="img/perfio.png" alt="">
+                        <h1>Dar feedbeck</h1>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="blocos" id="suporte-info">
+                        <img src="img/perfio.png" alt="">
+                        <h1>Ajuda e suporte</h1>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="blocos" id="sair-da-conta-info">
+                        <img src="img/perfio.png" alt="">
+                        <h1>Sair</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="abre-notificacao-perfio" id="notificacaoperfiomenu" name="fechadonotificacao">
+        <div class="card-notificacao-perfio">
+            <div class="titulo-notificacao">
+                <h1>Notificação</h1>
+            </div>
+            <div class="elementos-notificacao">
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="abre-publicar-perfio" id="publicar" name="fechadopublicar">
+        <div class="card-publicar-perfio">
+            <div class="elementos-publicar">
+                <a href="pages/publicar-feed.html">
+                    <div class="blocos-notificacao">
+                        <img src="img/add-o-svgrepo-com.svg" alt="">
+                        <h1>Publicar no feed</h1>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="blocos-notificacao">
+                        <img src="img/add-o-svgrepo-com.svg" alt="">
+                        <h1>Publicar no Story</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-cima-mobile">
+        <div class="elementos-menu-cima">
+            <div class="nome-do-app">
+                <h1>NOME</h1>
+            </div>
+            <div class="chat-mobile-menu-cima">
+                <a href="pages/contatos-mobile.html">
+                    <img src="img/chat-round-svgrepo-com.svg" alt="">
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container sobe sobe2 sobe3" id="container">
+
+        <div class="lado">
+
+        </div>
+
+        <div class="publicacoes">
+            <div class="stories"> 
+                <div id="wrapper">
+                    <div id="carousel">
+                        <div id="content">
+                            <div class="stori1" id="entra-story">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 1</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 2</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 3</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 4</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 5</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 6</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 7</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 8</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 9</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 10</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 11</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 12</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 13</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 14</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 15</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 16</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 17</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 18</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 19</h1>
+                            </div>
+                            <div class="stori1">
+                                <img class="item" src="img/perfio.png" alt="">
+                                <h1>felipe 20</h1>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="botoes-passa-stories">
+                        <button id="prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" >
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                            </svg>
+                        </button>
+                        <button id="next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" >
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>  
+            </div> 
+
+            <div class="pubs">
+                
+            </div>
+
+        </div>
+
+        <div class="chat">
+            <div class="menu-chat">
+                <h1>Contatos</h1>
+            </div>
+
+            <div class="contatos">
+                
+            </div>
+        </div>
+
+        <div class="abrir-chat-conversa" id="abrir-chat-conversa">
+            <div class="card-chat">
+                <div class="menu-card-chat">
+                    <div class="contato">
+                        <img src="img/perfio.png" alt="">
+                        <p>Pedro Jorge</p>
+                    </div>
+                    <div class="fecha-minimizar">
+                        <img class="minimizar-chat-card" id="minimiza" name="desativo" src="img/minimize-window-svgrepo-com.svg" alt="" srcset=""> 
+                        <img class="fecha-chat-card" id="facharchat" src="img/x-svgrepo-com.svg" alt="">
+                    </div>
+                </div>
+                <div class="centro">
+                    <div class="info-do-contato">
+                        <div class="contato-info">
+                            <div class="foto-do-contato">
+                                <img src="img/perfio.png" alt="" srcset="">
+                            </div>
+                            <div class="nome-do-contato">
+                                <h1>Pedro Louco</h1>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="conversa-do-chat">
+                         <div class="conversa1">
+                            <img src="img/perfio.png" alt="" srcset="">
+                            <div class="mensagem-chat">
+                                <p>E ai blz?</p>
+                            </div>
+                        </div>
+                        <div class="conversa1">
+                            <img src="img/perfio.png" alt="" srcset="">
+                            <div class="mensagem-chat">
+                                <p>Tudo bem e vc?</p>
+                            </div>
+                        </div>
+                        <div class="conversa1">
+                            <img src="img/perfio.png" alt="" srcset="">
+                            <div class="mensagem-chat">
+                                <p>e ai</p>
+                            </div>
+                        </div>
+                        <div class="conversa1">
+                            <img src="img/perfio.png" alt="" srcset="">
+                            <div class="mensagem-chat">
+                                <p>vou jogar</p>
+                            </div>
+                        </div>
+                        <div class="conversa1">
+                            <img src="img/perfio.png" alt="" srcset="">
+                            <div class="mensagem-chat">
+                                <p>Tudo bem e vc?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mandar">
+                    <div class="mandar-arquivo-img">
+                        <input type="file" id="file">
+                        <label class="botao" for="file"><img src="img/photo-fill-on-rectangle-fill-svgrepo-com.svg" alt="" srcset=""></label>
+                        
+                    </div>
+                    <div class="digitar-mandar">
+                        <input type="text" name="" id="" placeholder="Adicione um comentário..." >
+                    </div>
+                    <div class="botao-publicar">
+                        <input type="submit" value="Publicar">
+                    </div>      
+                </div>  
+            </div>
+        </div>
+
+
+    </div>
+    <div class="menu-mobile">
+        <div class="elementos-menu-mobile">
+            <div class="chat-menu-moblile escolhas-menu-mobile" name ="almentado1" id="home-anime-click">
+                <a href="#">
+                    <span id="home-anime" class="material-symbols-outlined">home</span>
+                </a>
+            </div>
+            <div class="chat-menu-moblile escolhas-menu-mobile" name ="almentado2" id="pesq-anime-click">
+                <a href="#">
+                    <span  id ="pesq-anime" class="material-symbols-outlined">search</span>
+                </a>
+            </div>
+            <div class="publicar-menu-moblile escolhas-menu-mobile" name ="almentado3" id="pub-anime-click">
+                <a href="pages/publicar-feed.html">
+                    <span id="pub-anime" class="material-symbols-outlined outlined-semfill ">add_circle</span>
+                </a>
+            </div>
+            <div class="chat-menu-moblile escolhas-menu-mobile" name ="almentado4" id="not-anime-click"> 
+                <a href="#">
+                    <span id="not-anime" class="material-symbols-outlined">favorite</span>
+                </a>
+            </div>
+            <div class="chat-menu-moblile escolhas-menu-mobile foto-perfil-menu-mobile" name ="almentado5" id="perfil-anime-click">
+                <a href="#">
+                    <img id="perfil-anime" src="img/perfio.png" alt="">
+                </a>
+            </div>
+        
+            
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="js/gerador-notificacoes.js"></script>
+    <script src="js/animacoes.js"></script>
+    <script src="js/animacoes-pub-aberta.js"></script>
+    <script src="js/stories.js"></script>
+    <script src="js/slide-stories.js"></script>
+    <script src="js/carrossel-passa-story.js"></script>
+    <script src="js/gerador-contato.js"></script>
+    <script src="js/gerador.js"></script>
+
+</body>
+</html>

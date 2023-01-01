@@ -1,0 +1,169 @@
+.abre-publicacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-pub img{ 
+    height: 100%;
+    border-radius: 1rem 0rem 0rem 1rem;
+    user-select: none;
+    max-height: 44rem;
+    max-width: 100%;
+}
+
+.tudo-lado{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 35rem;
+    background-color:#242526;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+
+
+.info-aberto{
+    border-bottom: 1px solid #424242;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+}
+
+.conteudo-info2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usuario-pub2{
+    display: flex;
+    align-items: center;
+}
+
+.usuario-pub2 img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.cardtrespontos2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: none;
+    width: 19rem;
+    height: 14rem;
+    background-color: #242526;
+    position: absolute;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+
+.abre-tres-pontos{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.mensagem-da-publicacao{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.foto-usuario-chat img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.texto-pub{
+    margin-left: 1rem;
+}
+.texto-pub p{
+    font-size: 14px;
+    color: white;
+    max-width: 24rem;
+}
+
+.nome-usuario-chat{
+    margin-right: 0.5rem;
+    font-weight: 600;
+}
+
+.chat-da-publicacoes{
+    overflow-y: scroll;
+}
+
+.interacoes-chat-aberto{
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #424242;
+}
+
+.comentario2{   
+    padding: 0.5rem 0rem 0rem 1rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.inpu-comen2{
+    width: 80%;
+    height: 2rem;
+    background-color:#242526;
+    border: none;      
+}   
+
+.button-comen2{
+    width: 18%;
+    height: 2rem;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.img-pub{
+    background: black;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.botao-fechar {
+    display: flex;
+    user-select: none;
+    cursor: pointer;
+}
+
+.botao-fechar img{
+    width: 28px;
+    height: 28px;
+}
+
+.chat-publicacoes{
+    display: flex;
+    display: none;
+    justify-content: center;
+    margin-top: 7rem;
+    width: 80%;
+}
+
+.alinha-chat-pubs{
+    display: flex;
+    justify-content: center;
+}
+
+.junta-trespontos--fehca{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+
+.botao-fechar h1:hover{
+    color: #727272;
+}
+

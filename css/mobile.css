@@ -1,0 +1,370 @@
+@media (max-width: 425px){
+    .local{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .chat{
+        display: none;
+    }
+    .lado{
+        display: none;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .comentario {
+        border-top: 1px solid #424242;
+        padding: 0.5rem 0rem 0rem 0.5rem;
+        border-radius: 0rem 0rem 1rem 1rem;
+    }
+    .inpu-comen {
+        width: 74%;
+        height: 2rem;
+        background-color: #242526;
+        border: none;
+    }
+
+    .publicacoes {
+        margin-top: 0rem;
+        width: 99%;
+        height: 100%;
+    }
+
+    .cardtrespontos {
+        width: 11rem;
+        height: 17rem;
+        background-color: #2e2f30;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
+    }
+    .stori1 img {
+        width: 44px;
+        height: 44px;
+    }
+    .stories {
+        height: 6rem;
+    }
+
+    #prev {
+        top: 50%;
+        left: 16px;
+        transform: translate(-50%, -50%);
+    }
+    #next {
+        top: 50%;
+        right: -4px;
+        transform: translate(-50%, -50%);
+    }
+    #prev, #next {
+        padding: 1px;
+    }
+
+    /* menu */
+
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+    }
+    .material-symbols-outlined{
+        color: white;
+    }
+
+    
+    .menu-mobile{
+        display: flex !important;
+        position: fixed;
+        bottom: 0;
+        background-color: #242526;
+        width: 100%;
+        height: 4rem;
+        /* border-radius: 2rem 2rem 0rem 0rem; */
+    }
+    .elementos-menu-mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .escolhas-menu-mobile img{
+        width: 1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+        user-select: none;
+    }
+    .foto-perfil-menu-mobile img{
+        width: 1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+        user-select: none;
+        border-radius: 50%;
+    }
+    /* abre chat publicação */
+    .img-pub {
+        display: none;
+    }
+    .abre-publicacoes {
+        margin-top: 2rem;
+    }
+    .tudo-lado {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 40rem;
+        background-color: #242526;
+        border-radius: 1rem;
+    }
+    .inpu-comen2 {
+        width: 70%;
+        height: 2rem;
+        background-color: #242526;
+        border: none;
+    }
+    .button-comen2 {
+        width: 20%;
+    }
+    .comentario2 {
+        padding: 0.5rem;
+    }
+
+    .cardtrespontos2 {
+        width: 15rem;
+        height: 14rem;
+        background-color:#2e2f30;
+        border-radius: 0rem 0rem 1rem 1rem;
+    }
+    .chat-publicacoes {
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .texto-pub p {
+        max-width: 90%;
+    }
+
+    /* stories */
+    .local {
+        margin-top: 6rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .slide-items img {
+        max-width: 100%;
+        display: block;
+        width: 100%;
+        max-height: 100%;
+        margin-top: -3rem;
+    }
+    .slide-items {
+        position: absolute;
+        grid-area: 1/1;
+        width: 100%;
+        height: 90%;
+        margin-top: 2rem;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5ren;
+    }
+
+    .slide {
+        max-width: 100%;
+        position: absolute;
+        margin-left: 0rem;
+        width: 100%;
+        display: grid;
+        margin-top: 1rem;
+        box-shadow: 0 4px 20px 2px rgb(0 0 0 / 40%);
+        background-color: #27282a;
+        border-radius: 0rem;
+        height: 70%;
+    }
+
+    .chat-story {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+        bottom: 8%;
+    }
+    .input-chat-story {
+        width: 64%;
+        height: 2rem;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 0.5rem;
+        margin-left: 0rem;
+    }
+    .elementos-parte{
+        width: 24%;
+    }
+
+    .botoes-story {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 7rem;
+    }
+    .slide-nav button {
+        opacity: 0;
+        height: 26rem;
+        opacity: 0;
+        width: 100%;
+    }
+    .slide-nav {
+        grid-area: 0;
+        z-index: 0;
+        display: block;
+        grid-template-columns:0;
+    }
+    .blocodecima {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0rem 1rem 0rem 1rem;
+        height: 3rem;
+        margin-top: -2rem;
+        width: 24rem;
+        background-color: transparent;
+        border-radius: 0rem
+    }
+
+    /* menu cima mobile */
+    #wrapper {
+        width: 100%;
+        max-width: 964px;
+        position: initial;
+    }
+    .botoes-passa-stories{
+        display: none;
+    }
+    .menu-cima-mobile{
+        display: block;
+        width: 100%;
+        height: 4rem;
+        background-color: #121212;
+        position: fixed;
+        top: 0;
+        border-bottom:none;
+    }
+    .elementos-menu-cima{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 1rem 0 1rem;
+        align-items: center;
+    }
+    .nome-do-app h1{
+        color: white;
+        font-size: 25px;
+        user-select: none;
+    }
+    .chat-mobile-menu-cima img{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        user-select: none;
+    }
+    .stories {
+        background-color: transparent;
+        width: 100%;
+        height: 8rem;
+        border: none;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card1 {
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        margin-top: 0rem;
+        border: none;
+        border-radius: 0.5rem;
+    }
+    .info {
+        border-bottom: none;
+        border-radius: 0.4rem;
+        padding: 0.5rem;
+    }
+
+
+    /* publicar feed2 responsivo */
+    .conteiner2{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: #242526;
+        border-radius: 0rem;
+        flex-direction: column;
+    }
+    
+    .img-escolhida img{
+        height: 100%;
+        user-select: none;
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 0rem 0rem 0rem 1rem;
+    }
+    
+    .comentario{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tudo2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .botoes2{
+        border-bottom: 1px solid #424242;
+    }
+    
+    .legenda-block textarea{
+        width: 90%;
+        margin-left: 0.5rem;
+        height: 7rem;
+    }
+    
+    .publicar{
+        display: flex;
+        justify-content: center;
+    }
+    .botao2{
+        padding: 1rem 4rem 1rem 4rem;
+        margin-top: 0rem;
+    }
+    
+    .img-escolhida{
+        height: 27.6rem;
+    }
+    .body-do-feed2 {
+        background-color: #121212;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: fixed;
+        bottom: 0;
+        position: fixed;
+    }
+}
