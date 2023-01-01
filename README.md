@@ -29,6 +29,9 @@ O projeto se trata de um projeto que está sendo desenvolvida por 2 desenvolvedo
    <img widht= 700px height= 500px src="img-do-projeto/img5.jpg">
   <br>
   <br>
+  <img widht= 700px height= 500px src="img-do-projeto/img6.jpg">
+  <br>
+  <br>
 
 </div>
  
